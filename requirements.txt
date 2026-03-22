@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+matplotlib
+seaborn
+plotly
+jupyter
+ipykernel
+joblib
+pytest
+python-dotenv

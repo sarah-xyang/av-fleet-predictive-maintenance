@@ -1,0 +1,36 @@
+# Data — never commit raw or processed datasets
+data/raw/
+data/processed/
+
+# Saved model artifacts
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Raw data file types
+*.txt
+*.csv
+!requirements.txt
+
+# Preserve .gitkeep in gitignored model directory
+!models/.gitkeep
+
+# Claude Code internals
+CLAUDE.md
+.claude/
+
+# Python bytecode (explicit)
+*.pyc
+*.pyo
