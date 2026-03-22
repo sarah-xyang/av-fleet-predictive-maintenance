@@ -27,6 +27,7 @@ venv/
 # Preserve .gitkeep and tracked model artifacts in gitignored model directory
 !models/.gitkeep
 !models/scaler.pkl
+!models/xgboost_rul_model.json
 
 # Claude Code internals
 CLAUDE.md
