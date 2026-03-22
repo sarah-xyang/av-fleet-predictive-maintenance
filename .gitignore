@@ -2,8 +2,8 @@
 data/raw/
 data/processed/
 
-# Saved model artifacts
-models/
+# Saved model artifacts (ignore contents, allow explicit exceptions below)
+models/*
 
 # Python
 __pycache__/
@@ -24,8 +24,9 @@ venv/
 *.csv
 !requirements.txt
 
-# Preserve .gitkeep in gitignored model directory
+# Preserve .gitkeep and tracked model artifacts in gitignored model directory
 !models/.gitkeep
+!models/scaler.pkl
 
 # Claude Code internals
 CLAUDE.md
