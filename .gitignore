@@ -36,3 +36,4 @@ CLAUDE.md
 # Python bytecode (explicit)
 *.pyc
 *.pyo
+build_notebook_04.py
